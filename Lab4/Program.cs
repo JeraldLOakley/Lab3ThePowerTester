@@ -19,7 +19,6 @@ namespace Lab4
 			Console.WriteLine("\t\t\t\t-----------------");
 			Console.WriteLine("\t\t\t\t  !POWER TABLE!");
 
-
 			bool Yes = true;
 			string yes = "Y";
 			string no = "N";
@@ -32,10 +31,8 @@ namespace Lab4
 				Console.WriteLine();
 				string input = Console.ReadLine();
 
-
-
 				int length = int.Parse(input);
-
+				Console.WriteLine("\t\t       Number   \tSquared   \tCubed");
 				for (int i = 1; i <= length; i++)
 				{
 					Console.WriteLine("\t\t       Number   \tSquared   \tCubed");
